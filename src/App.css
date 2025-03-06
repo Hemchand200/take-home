@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Main App Container */
+.app-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  /* Header Styling */
+  .header {
+    text-align: center;
+    background: #007bff;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  /* Navigation Bar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #343a40;
+    color: white;
   }
-}
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    font-size: 18px;
+  }
+  
+  .navbar a:hover {
+    background-color: #007bff;
+    border-radius: 5px;
+  }
+  
+  /* Container for Search & Dog Listings */
+  .content {
+    margin-top: 20px;
+  }
+  
